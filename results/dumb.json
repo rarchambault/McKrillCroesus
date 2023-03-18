@@ -1,0 +1,12 @@
+[
+      {
+            "date": "2023-01-03",
+            "action": "BUY",
+            "ticker": "UAL"
+      },
+      {
+            "date": "2023-01-31",
+            "action": "SELL",
+            "ticker": "UAL"
+      }
+]
