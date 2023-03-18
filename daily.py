@@ -1,17 +1,5 @@
-import datetime
-import yfinance as yf
+import finance_client as fc
 
-def getDailyInfo(str ticker, datetime start, datetime end):
-    var data = yf.download(ticker, str(start), str(end))
+data = fc.getData(["AAL", "DAL", "UAL", "LUV", "HA"], "2023-01-01", "2023-01-02")
 
-
-
-
-def main()
-    startDate = datetime.datetime(2023, 1, 1)
-    endDate = datetime.datetime(2023, 2, 1)
-    getDailyInfo("AAL", startDate, endDate)
-    getDailyInfo("DAL", startDate, endDate)
-    getDailyInfo("UAL", startDate, endDate)
-    getDailyInfo("LUV", startDate, endDate)
-    getDailyInfo("HA", startDate, endDate)
+print(data["AAL"]["2023-01-01"])
